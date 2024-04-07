@@ -1,3 +1,19 @@
+ 
+
+##  下载要连接的 pcre2 库 
+
+```bush
+git clone git@github.com:PCRE2Project/pcre2.git
+```
+
+##  编译后放入系统路径 
+
+```bush
+cmake .
+make
+make install
+```
+
 ## 使脚本可执行:
 
 ```bash 
